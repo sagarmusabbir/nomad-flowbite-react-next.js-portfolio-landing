@@ -2,8 +2,7 @@
 
 ### Deploy Preview [![Netlify Status](https://api.netlify.com/api/v1/badges/86293abd-0f1a-4a20-ac49-d9b07610d9a0/deploy-status)](https://app.netlify.com/sites/flowbite-react-nextjs-boilerplate/deploys)
 
-[![Preview](https://raw.githubusercontent.com/sagarmusabbir/FlowbiteReact-NextJs-Boilerplate/main/public/ss.png)](https://builder-io-agency.netlify.app)
-
+[![Preview](https://raw.githubusercontent.com/sagarmusabbir/FlowbiteReact-NextJs-Boilerplate/main/public/ss.png)](https://flowbite-react-nextjs-boilerplate.netlify.app/)
 ### Built With
 
 - [Next JS](https://nextjs.org/)
@@ -11,7 +10,7 @@
 
 ## Description
 
-A Boilerplate for NextJs + FlowbiteReact | This is an open source boilerplate made by [Third Bracket](https://www.thirdbracket.co.uk/) which anyone can use without any credit.
+A Boilerplate for NextJs + FlowbiteReact - This is an open source boilerplate made by [Third Bracket](https://www.thirdbracket.co.uk/) which anyone can use without any credit.
 
 ## Getting Started
 

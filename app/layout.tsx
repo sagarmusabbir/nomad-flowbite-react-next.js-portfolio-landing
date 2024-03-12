@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "FlowbiteReact-NextJs-Boilerplate",
   description:
-    "A Boilerplate for NextJs + FlowbiteReact | Third Bracket Product",
+    "A Boilerplate for NextJs + FlowbiteReact - Open Spurce boilerplate from Third Bracket Product",
 };
 
 export default function RootLayout({

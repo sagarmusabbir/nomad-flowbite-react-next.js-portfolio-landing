@@ -1,38 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Flowbite-React-NextJs Boilerplate
+
+### Deploy Preview [![Netlify Status](https://api.netlify.com/api/v1/badges/86293abd-0f1a-4a20-ac49-d9b07610d9a0/deploy-status)](https://app.netlify.com/sites/flowbite-react-nextjs-boilerplate/deploys)
+
+[![Preview](https://cdn-icons-png.flaticon.com/512/2547/2547870.png)](https://builder-io-agency.netlify.app)
+
+### Built With
+
+- [Next JS](https://nextjs.org/)
+- [Flowbite-react](https://www.flowbite-react.com/)
+
+## Description
+
+A Boilerplate for NextJs + FlowbiteReact | This is an open source boilerplate made by [Third Bracket](https://www.thirdbracket.co.uk/) which anyone can use without any credit.
 
 ## Getting Started
 
-First, run the development server:
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+npm create next app
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Depedencies
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+        "flowbite": "^2.3.0",
+        "flowbite-react": "^0.7.0-beta.6",
+        "next": "^14.1.3",
+        "react": "^18",
+        "react-dom": "^18"
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Installing
 
-## Learn More
+1. Clone the repo and enter the directory
 
-To learn more about Next.js, take a look at the following resources:
+```sh
+git clone https://github.com/sagarmusabbir/FlowbiteReact-NextJs-Boilerplate.git
+cd FlowbiteReact-NextJs-Boilerplate
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install NPM packages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```sh
+npm install or yarn install
+```
 
-## Deploy on Vercel
+3. Run project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```sh
+npm run dev or yarn dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# thirdbracket-blog
-# FlowbiteReact-NextJs-Boilerplate
+## Contact
+
+sagarmusabbir@gmail.com
+
+Project Link: [FlowbiteReact-NextJs-Boilerplate](https://github.com/sagarmusabbir/FlowbiteReact-NextJs-Boilerplate)
+
+## Authors
+
+1. Musabbir Sagar [@myLinkedIn](https://www.linkedin.com/in/musabbirsagar/)
+
+## Version History
+
+- 0.1
+  - Initial Release
+
+<!-- ## License
+
+This project is licensed under the [Name] License - see the LICENSE.md file for details -->
+
+## Acknowledgements
+
+- [TailwindCss](https://www.tailwindcss.com)
+- [Next Documentation](https://nextjs.org/docs)
+- [Flowbite React Documentation](https://www.flowbite-react.com/docs/getting-started/introduction)
+- [Flowbite Documentation](https://flowbite.com/docs/getting-started/introduction/)

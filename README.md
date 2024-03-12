@@ -2,7 +2,7 @@
 
 ### Deploy Preview [![Netlify Status](https://api.netlify.com/api/v1/badges/86293abd-0f1a-4a20-ac49-d9b07610d9a0/deploy-status)](https://app.netlify.com/sites/flowbite-react-nextjs-boilerplate/deploys)
 
-[![Preview](/ss.png)](https://builder-io-agency.netlify.app)
+[![Preview](https://raw.githubusercontent.com/sagarmusabbir/FlowbiteReact-NextJs-Boilerplate/main/public/ss.png)](https://builder-io-agency.netlify.app)
 
 ### Built With
 

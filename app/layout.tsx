@@ -4,6 +4,7 @@ import { inter } from "./ui/fonts";
 
 import "./globals.css";
 import { ThemeModeScript } from "flowbite-react";
+import favicon from "@/app/favicon.ico";
 
 export const metadata: Metadata = {
   title: "Flowbite-React NextJs Starter",

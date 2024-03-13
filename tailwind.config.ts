@@ -30,6 +30,7 @@ const config: Config = {
           slatedark: "#64748b",
           slatedarker: "#475569",
           slatedarkest: "#1e293b",
+          slatedark900: "#0f172a",
           slatemd: "#e2e8f0",
 
           zinc: "#a1a1aa",

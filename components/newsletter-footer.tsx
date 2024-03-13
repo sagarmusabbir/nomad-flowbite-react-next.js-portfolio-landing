@@ -40,7 +40,8 @@ const NewsletterSignUpFooterSection: FC = function () {
             </div>
             <button
               type="submit"
-              className="cursor-pointer rounded-r-lg  px-5 py-3 text-center text-sm  border border-neon--slatedark  bg-neon-slatedark  text-white focus:ring-neon-slatedark focus:text-primary-500  dark:border-primary-700 dark:text-white dark:text-neon-slatemd dark:bg-neon-slatedarkest dark:hover:bg-neon-slatedarker focus:ring-2 focus:border-neon-slatemd"
+              // className="cursor-pointer rounded-r-lg  px-5 py-3 text-center text-sm  border border-neon--slatedark  bg-neon-slatedark  text-white focus:ring-neon-slatedark focus:text-primary-500  dark:border-primary-700 dark:text-white dark:text-neon-slatemd dark:bg-neon-slatedarkest dark:hover:bg-neon-slatedarker focus:ring-2 focus:border-neon-slatemd"
+              className="cursor-pointer rounded-r-lg border border-primary-600 bg-primary-600 px-5 py-3 text-center text-sm text-white hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 dark:bg-neon-slatedark dark:hover:bg-primary-700 dark:focus:ring-primary-800"
             >
               Subscribe
             </button>
@@ -50,11 +51,11 @@ const NewsletterSignUpFooterSection: FC = function () {
         <div className="gap-10 my-6  mx-auto lg:my-16 space-y-12 md:grid md:grid-cols-2 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-5">
           <address className="not-italic">
             <p className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
-              New York
+              United Kingdom
             </p>
             <p className="mb-3 text-gray-500 dark:text-gray-400">
-              Huntersville,
-              <br /> 957 Hill Hills Suite 491, United States
+              340 Dickenson Road,
+              <br /> M130NG, Manchester, UK
             </p>
             <ul className="space-y-3 text-gray-500 dark:text-gray-400">
               <li className="flex items-center">
@@ -70,7 +71,7 @@ const NewsletterSignUpFooterSection: FC = function () {
                     clipRule="evenodd"
                   />
                 </svg>
-                Office: +12(3) 456 7890 1234
+                +44 7425 694261
               </li>
               <li className="flex items-center">
                 <svg
@@ -84,21 +85,21 @@ const NewsletterSignUpFooterSection: FC = function () {
                 </svg>
 
                 <a
-                  href="mailto:company@name.com"
-                  className="ml-2 hover:underline"
+                  href="mailto:musabbir@thirdbracket.co.uk"
+                  className="ml-1 hover:underline"
                 >
-                  company@name.com
+                  musabbir@thirdbracket.co.uk
                 </a>
               </li>
             </ul>
           </address>
           <address className="not-italic">
             <p className="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">
-              Rome
+              Bangladesh
             </p>
             <p className="mb-3 text-gray-500 dark:text-gray-400">
-              Piazza di Spagna,
-              <br /> 00187 Roma RM, Italy
+              Nowab Manjil,
+              <br /> Town Hall Road 3300, BD
             </p>
             <ul className="space-y-3 text-gray-500 dark:text-gray-400">
               <li className="flex items-center">
@@ -114,7 +115,7 @@ const NewsletterSignUpFooterSection: FC = function () {
                     clipRule="evenodd"
                   />
                 </svg>
-                +12(3) 456 7890 1234
+                +880 1765 692886
               </li>
               <li className="flex items-center">
                 <svg
@@ -128,40 +129,45 @@ const NewsletterSignUpFooterSection: FC = function () {
                 </svg>
 
                 <a
-                  href="mailto:company@name.com"
-                  className="ml-2 hover:underline"
+                  href="mailto:musabbir@thirdbracket.co.uk"
+                  className="ml-1 hover:underline"
                 >
-                  company@name.it
+                  musabbir@thirdbracket.co.uk
                 </a>
               </li>
             </ul>
           </address>
           <div>
-            <Footer.Title title="Sitemap" className="text-gray-800" />
+            <Footer.Title title="Legal" className="text-gray-800" />
             <Footer.LinkGroup
               className="text-base text-gray-600 dark:text-gray-400"
               col
             >
-              <Footer.Link href="https://flowbite.com">Flowbite</Footer.Link>
+              <Footer.Link href="https://flowbite.com">Terms</Footer.Link>
               <Footer.Link href="https://tailwindcss.com/">
-                Tailwind CSS
+                Privacy Policy
               </Footer.Link>
             </Footer.LinkGroup>
           </div>
           <div>
-            <Footer.Title title="Sitemap" className="text-gray-800" />
+            <Footer.Title title="About" className="text-gray-800" />
             <Footer.LinkGroup
               className="text-base text-gray-600 dark:text-gray-400"
               col
             >
-              <Footer.Link href="https://flowbite.com">Flowbite</Footer.Link>
-              <Footer.Link href="https://tailwindcss.com/">
-                Tailwind CSS
+              <Footer.Link href="https://nomadgang.com">
+                About Nomad Gang
+              </Footer.Link>
+              <Footer.Link href="https://thirdbracket.co.uk.com/">
+                About Third Bracket
+              </Footer.Link>
+              <Footer.Link href="https://musabbirsagar.com/about">
+                About Developer
               </Footer.Link>
             </Footer.LinkGroup>
           </div>
           <div>
-            <Footer.Title title="Sitemap" className="text-gray-800" />
+            <Footer.Title title="Resources" className="text-gray-800" />
             <Footer.LinkGroup
               className="text-base text-gray-600 dark:text-gray-400"
               col
@@ -170,6 +176,7 @@ const NewsletterSignUpFooterSection: FC = function () {
               <Footer.Link href="https://tailwindcss.com/">
                 Tailwind CSS
               </Footer.Link>
+              <Footer.Link href="https://nextjs.com/">Next.js</Footer.Link>
             </Footer.LinkGroup>
           </div>
         </div>
@@ -186,7 +193,7 @@ const NewsletterSignUpFooterSection: FC = function () {
           <Link
             href={"/"}
             className="
-          self-center whitespace-nowrap text-xl font-semibold text-primary-900 dark:text-white"
+          self-center text-xl font-semibold text-neon-slatedarkest hover:text-neon-slatedark900 dark:text-white"
           >
             NomadGang<span className="font-extralight">.com</span>
             <span className="text-xs font-light">™</span>

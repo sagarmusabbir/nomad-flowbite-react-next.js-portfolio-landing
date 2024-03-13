@@ -12,7 +12,7 @@ const DefaultHeaderNavigation: FC = function () {
         <Navbar.Brand href="./" className="justify-self-start">
           <span
             className="
-          self-center whitespace-nowrap text-xl font-semibold text-primary-900 dark:text-white font-bebas"
+          self-center text-xl font-semibold text-neon-slatedarkest hover:neon-slatedark900 dark:text-white font-bebas"
           >
             NomadGang<span className="font-extralight">.com</span>
             <span className="text-xs font-light">™</span>
@@ -25,24 +25,68 @@ const DefaultHeaderNavigation: FC = function () {
         </div>
         <Navbar.Collapse
           theme={{
-            list: "mt-4 flex flex-col lg:mt-0 lg:flex-row lg:space-x-8 md:mt-0 md:flex-row md:space-x-4 lg:text-base lg:font-medium text-primary-700 dark:text-white ",
+            list: "mt-4 flex flex-col lg:mt-0 lg:flex-row lg:space-x-8 md:mt-0 md:flex-row md:space-x-4 lg:text-base lg:font-medium text-primary-700 dark:text-white items-center",
           }}
           className="lg:order-1 md:order-1 "
         >
-          <Navbar.Link href="#" className="md:hover:text-primary-800">
+          <Navbar.Link href="/" className="md:hover:text-primary-800">
             Home
           </Navbar.Link>
-          <Navbar.Link href="#" className="md:hover:text-primary-800">
-            Company
+          <Navbar.Link
+            href="https://github.com/sagarmusabbir"
+            className="md:hover:text-primary-800"
+          >
+            Github
           </Navbar.Link>
-          <Navbar.Link href="#" className="md:hover:text-primary-800">
-            Marketplace
-          </Navbar.Link>
-          <Navbar.Link href="#" className="md:hover:text-primary-800">
+          <Navbar.Link
+            href="https://github.com/sagarmusabbir/FlowbiteReact-NextJs-Boilerplate"
+            className="md:hover:text-primary-800"
+          >
             Features
           </Navbar.Link>
-          <Navbar.Link href="#" className="md:hover:text-primary-800">
-            Team
+          <Navbar.Link
+            href="https://blog.musabbirsagar.com/"
+            className="md:hover:text-primary-800  flex items-center gap-1"
+          >
+            Blog
+            <svg
+              className="w-4 h-4 text-gray-800 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778"
+              />
+            </svg>
+          </Navbar.Link>
+
+          <Navbar.Link
+            href="https://www.upwork.com/workwith/smamusabbirs"
+            target="_blank"
+            className="md:hover:text-primary-800 flex items-center gap-1"
+          >
+            Hire
+            <svg
+              className="w-4 h-4 text-gray-800 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M18 14v4.833A1.166 1.166 0 0 1 16.833 20H5.167A1.167 1.167 0 0 1 4 18.833V7.167A1.166 1.166 0 0 1 5.167 6h4.618m4.447-2H20v5.768m-7.889 2.121 7.778-7.778"
+              />
+            </svg>
           </Navbar.Link>
           <Navbar.Link href="#" className="md:hover:text-primary-800">
             Contact

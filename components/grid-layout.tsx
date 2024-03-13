@@ -54,11 +54,29 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <Button href="#">Case study</Button>
-              <Button color="gray" href="#" theme={{
-                  "color": { "gray": "text-gray-900 bg-white border border-gray-200 hover:bg-gray-50 hover:text-primary-600 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 focus:ring-2" },
-                  "inner": { "base": "flex items-stretch transition-0" }
-                  }} className="w-fit">
+              <Button
+                href="#"
+                color="dark"
+                theme={{
+                  color: {
+                    dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
+                  },
+                  inner: { base: "flex items-stretch transition-0" },
+                }}
+              >
+                Case study
+              </Button>
+              <Button
+                color="gray"
+                href="#"
+                theme={{
+                  color: {
+                    gray: "text-neon-slatedarker bg-white border border-neon-slatelightmd hover:bg-gray-50 hover:text-primary-600 focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatedarker  dark:border-primary-600 dark:text-white dark:hover:bg-slate-700 focus:ring-2",
+                  },
+                  inner: { base: "flex items-stretch transition-0" },
+                }}
+                className="w-fit"
+              >
                 <svg
                   aria-hidden="true"
                   className="w-5 h-5 mr-2 -ml-1"
@@ -112,11 +130,29 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <Button href="#">Case study</Button>
-              <Button color="gray" href="#" theme={{
-                  "color": { "gray": "text-gray-900 bg-white border border-gray-200 hover:bg-gray-50 hover:text-primary-600 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 focus:ring-2" },
-                  "inner": { "base": "flex items-stretch transition-0" }
-                  }} className="w-fit">
+              <Button
+                href="#"
+                color="dark"
+                theme={{
+                  color: {
+                    dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
+                  },
+                  inner: { base: "flex items-stretch transition-0" },
+                }}
+              >
+                Case study
+              </Button>
+              <Button
+                color="gray"
+                href="#"
+                theme={{
+                  color: {
+                    gray: "text-neon-slatedarker bg-white border border-neon-slatelightmd hover:bg-gray-50 hover:text-primary-600 focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatedarker  dark:border-primary-600 dark:text-white dark:hover:bg-slate-700 focus:ring-2",
+                  },
+                  inner: { base: "flex items-stretch transition-0" },
+                }}
+                className="w-fit"
+              >
                 <svg
                   aria-hidden="true"
                   className="w-5 h-5 mr-2 -ml-1"
@@ -170,11 +206,29 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <Button href="#">Case study</Button>
-              <Button color="gray" href="#" theme={{
-                  "color": { "gray": "text-gray-900 bg-white border border-gray-200 hover:bg-gray-50 hover:text-primary-600 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 focus:ring-2" },
-                  "inner": { "base": "flex items-stretch transition-0" }
-                  }} className="w-fit">
+              <Button
+                href="#"
+                color="dark"
+                theme={{
+                  color: {
+                    dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
+                  },
+                  inner: { base: "flex items-stretch transition-0" },
+                }}
+              >
+                Case study
+              </Button>
+              <Button
+                color="gray"
+                href="#"
+                theme={{
+                  color: {
+                    gray: "text-neon-slatedarker bg-white border border-neon-slatelightmd hover:bg-gray-50 hover:text-primary-600 focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatedarker  dark:border-primary-600 dark:text-white dark:hover:bg-slate-700 focus:ring-2",
+                  },
+                  inner: { base: "flex items-stretch transition-0" },
+                }}
+                className="w-fit"
+              >
                 <svg
                   aria-hidden="true"
                   className="w-5 h-5 mr-2 -ml-1"
@@ -228,11 +282,29 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <Button href="#">Case study</Button>
-              <Button color="gray" href="#" theme={{
-                  "color": { "gray": "text-gray-900 bg-white border border-gray-200 hover:bg-gray-50 hover:text-primary-600 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 focus:ring-2" },
-                  "inner": { "base": "flex items-stretch transition-0" }
-                  }} className="w-fit">
+              <Button
+                href="#"
+                color="dark"
+                theme={{
+                  color: {
+                    dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
+                  },
+                  inner: { base: "flex items-stretch transition-0" },
+                }}
+              >
+                Case study
+              </Button>
+              <Button
+                color="gray"
+                href="#"
+                theme={{
+                  color: {
+                    gray: "text-neon-slatedarker bg-white border border-neon-slatelightmd hover:bg-gray-50 hover:text-primary-600 focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatedarker  dark:border-primary-600 dark:text-white dark:hover:bg-slate-700 focus:ring-2",
+                  },
+                  inner: { base: "flex items-stretch transition-0" },
+                }}
+                className="w-fit"
+              >
                 <svg
                   aria-hidden="true"
                   className="w-5 h-5 mr-2 -ml-1"
@@ -286,11 +358,29 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <Button href="#">Case study</Button>
-              <Button color="gray" href="#" theme={{
-                  "color": { "gray": "text-gray-900 bg-white border border-gray-200 hover:bg-gray-50 hover:text-primary-600 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 focus:ring-2" },
-                  "inner": { "base": "flex items-stretch transition-0" }
-                  }} className="w-fit">
+              <Button
+                href="#"
+                color="dark"
+                theme={{
+                  color: {
+                    dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
+                  },
+                  inner: { base: "flex items-stretch transition-0" },
+                }}
+              >
+                Case study
+              </Button>
+              <Button
+                color="gray"
+                href="#"
+                theme={{
+                  color: {
+                    gray: "text-neon-slatedarker bg-white border border-neon-slatelightmd hover:bg-gray-50 hover:text-primary-600 focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatedarker  dark:border-primary-600 dark:text-white dark:hover:bg-slate-700 focus:ring-2",
+                  },
+                  inner: { base: "flex items-stretch transition-0" },
+                }}
+                className="w-fit"
+              >
                 <svg
                   aria-hidden="true"
                   className="w-5 h-5 mr-2 -ml-1"
@@ -344,11 +434,29 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
               </p>
             </div>
             <div className="flex items-center gap-4">
-              <Button href="#">Case study</Button>
-              <Button color="gray" href="#" theme={{
-                  "color": { "gray": "text-gray-900 bg-white border border-gray-200 hover:bg-gray-50 hover:text-primary-600 focus:ring-primary-700 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 focus:ring-2" },
-                  "inner": { "base": "flex items-stretch transition-0" }
-                  }} className="w-fit">
+              <Button
+                href="#"
+                color="dark"
+                theme={{
+                  color: {
+                    dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
+                  },
+                  inner: { base: "flex items-stretch transition-0" },
+                }}
+              >
+                Case study
+              </Button>
+              <Button
+                color="gray"
+                href="#"
+                theme={{
+                  color: {
+                    gray: "text-neon-slatedarker bg-white border border-neon-slatelightmd hover:bg-gray-50 hover:text-primary-600 focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatedarker  dark:border-primary-600 dark:text-white dark:hover:bg-slate-700 focus:ring-2",
+                  },
+                  inner: { base: "flex items-stretch transition-0" },
+                }}
+                className="w-fit"
+              >
                 <svg
                   aria-hidden="true"
                   className="w-5 h-5 mr-2 -ml-1"

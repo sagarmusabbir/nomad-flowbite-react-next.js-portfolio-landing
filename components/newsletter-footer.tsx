@@ -33,14 +33,14 @@ const NewsletterSignUpFooterSection: FC = function () {
               <input
                 type="email"
                 id="email-subscribe"
-                className="block w-full rounded-l-lg border border-gray-300 bg-white p-3 pl-10 text-sm text-gray-900 focus:border-primary-500 focus:ring-primary-500 dark:border-gray-500 dark:bg-gray-600 dark:text-white dark:placeholder-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
+                className="block w-full rounded-l-lg border border-neon-slatedark bg-white p-3 pl-10 text-sm text-gray-900 focus:border-neon-slatemd focus:ring-neon-slatedark dark:border-gray-500 dark:bg-gray-600 dark:text-white dark:placeholder-gray-400 dark:focus:border-primary-500 dark:focus:ring-primary-500"
                 placeholder="Your email"
                 required
               />
             </div>
             <button
               type="submit"
-              className="cursor-pointer rounded-r-lg border border-primary-600 bg-primary-600 px-5 py-3 text-center text-sm text-white hover:bg-primary-700 focus:ring-4 focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+              className="cursor-pointer rounded-r-lg  px-5 py-3 text-center text-sm  border border-neon--slatedark  bg-neon-slatedark  text-white focus:ring-neon-slatedark focus:text-primary-500  dark:border-primary-700 dark:text-white dark:text-neon-slatemd dark:bg-neon-slatedarkest dark:hover:bg-neon-slatedarker focus:ring-2 focus:border-neon-slatemd"
             >
               Subscribe
             </button>

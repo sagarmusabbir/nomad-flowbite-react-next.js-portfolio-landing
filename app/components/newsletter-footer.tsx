@@ -1,5 +1,6 @@
 "use client";
-import { Dropdown, Footer, FooterIcon } from "flowbite-react";
+import { Dropdown, Footer, FooterBrand, FooterIcon } from "flowbite-react";
+import { Span } from "next/dist/trace";
 import Link from "next/link";
 import type { FC } from "react";
 
@@ -183,22 +184,13 @@ const NewsletterSignUpFooterSection: FC = function () {
 
         <Footer.Divider />
         <div className="flex flex-col items-center justify-between lg:flex-row">
-          {/* <Footer.Brand
-            alt="Flowbite logo"
-            href="https://flowbite.com"
-            name="NomadGang"
-            src="https://flowbite.com/docs/images/logo.svg"
-            className="mb-4 lg:mb-0 sm:mb-4"
-          /> */}
           <Link
             href={"/"}
             className="
-            border border-neon-slatedarker dark:border-neon-slatelightmd"
+            border border-neon-slatedarker dark:border-neon-slatelightmd text-transparent bg-clip-text bg-gradient-to-r to-neon-slatedark900 dark:to-neon-slatelight from-neon-slatedarkest  dark:from-neon-slatelightmd  font-semibold  lg:text-lg leading-none tracking-tight py-0.5 "
           >
-            <span className="text-transparent bg-clip-text bg-gradient-to-r to-neon-slatedark900 dark:to-neon-slatelight from-neon-slatedarkest  dark:from-neon-slatelightmd  font-normal text-md lg:text-lg p-1">
-              NOMAD
-            </span>
-            <mark className="text-neon-slatelight dark:text-neon-slatedarkest bg-gradient-to-r to-neon-slatedarker dark:to-neon-slatelight from-neon-slatedark  dark:from-neon-slatelightmd font-semibold  font-extralight p-1  text-md lg:text-lg">
+            NOMAD
+            <mark className="text-neon-slatelight dark:text-neon-slatedarkest bg-gradient-to-r to-neon-slatedarker dark:to-neon-slatelight from-neon-slatedark  dark:from-neon-slatelightmd   font-normal  lg:text-lg leading-none">
               GANG
             </mark>
           </Link>

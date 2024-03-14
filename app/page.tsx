@@ -1,9 +1,9 @@
-import CardWithImageBlogSection from "@/components/card-with-image";
+import CardWithImageBlogSection from "@/app/components/card-with-image";
 
-import GridLayoutImageCTAPreviewProjectPortfolio from "@/components/grid-layout";
-import DefaultHeaderNavigation from "@/components/header";
+import GridLayoutImageCTAPreviewProjectPortfolio from "@/app/components/grid-layout";
+import DefaultHeaderNavigation from "@/app/components/header";
 
-import NewsletterSignUpFooterSection from "@/components/newsletter-footer";
+import NewsletterSignUpFooterSection from "@/app/components/newsletter-footer";
 
 export default function Home() {
   return (

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 294" preserveAspectRatio="xMidYMid meet" class="ghost-orb-logo" height="40px">
+<title>Ghost Logo</title>
+<style>
+svg.ghost-orb-logo {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(/images/logos/logo-black-1.webp);
+}
+</style>
+</svg>

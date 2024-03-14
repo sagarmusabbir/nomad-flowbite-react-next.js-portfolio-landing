@@ -9,12 +9,13 @@ const DefaultHeaderNavigation: FC = function () {
   return (
     <header>
       <Navbar className="border-t border-gray-200 dark:bg-gray-800 dark:border-gray-700">
+        {/* Logo */}
         <Navbar.Brand
           href="./"
-          className="border border-neon-slatedarker dark:border-neon-slatelightmd  text-transparent bg-clip-text bg-gradient-to-r to-neon-slatedark900 dark:to-neon-slatelight from-neon-slatedarkest  dark:from-neon-slatelightmd  font-semibold  lg:text-lg leading-none tracking-tight pl-0.5"
+          className="border border-neon-slatedarker dark:border-neon-slatelightmd  text-transparent bg-clip-text bg-gradient-to-r to-neon-slatedark900 dark:to-neon-slatelight from-neon-slatedarkest  dark:from-neon-slatelightmd  font-semibold  text-md leading-tight tracking-normal pl-0.5"
         >
           NOMAD
-          <mark className="text-neon-slatelight dark:text-neon-slatedarkest bg-gradient-to-r to-neon-slatedarker dark:to-neon-slatelight from-neon-slatedark  dark:from-neon-slatelightmd   font-normal  lg:text-lg ">
+          <mark className="text-neon-slatelight dark:text-neon-slatedarkest bg-gradient-to-r to-neon-slatedarker dark:to-neon-slatelight from-neon-slatedark  dark:from-neon-slatelightmd   font-medium  text-md ">
             GANG
           </mark>
         </Navbar.Brand>

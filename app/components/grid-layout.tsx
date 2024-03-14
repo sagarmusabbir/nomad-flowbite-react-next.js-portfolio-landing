@@ -45,13 +45,14 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
             <div className="flex items-center gap-4">
               <Button
                 href="#"
-                color="dark"
-                theme={{
-                  color: {
-                    dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
-                  },
-                  inner: { base: "flex items-stretch transition-0" },
-                }}
+                // color="dark"
+                // theme={{
+                //   color: {
+                //     dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
+                //   },
+                //   inner: { base: "flex items-stretch transition-0" },
+                // }}
+                className="text-neon-slatelight dark:text-neon-slatedarkest bg-gradient-to-r to-neon-slatedarker dark:to-neon-slatelight from-neon-slatedark  dark:from-neon-slatelightmd   font-medium  text-md"
               >
                 Case study
               </Button>
@@ -109,13 +110,14 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
             <div className="flex items-center gap-4">
               <Button
                 href="#"
-                color="dark"
-                theme={{
-                  color: {
-                    dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
-                  },
-                  inner: { base: "flex items-stretch transition-0" },
-                }}
+                // color="dark"
+                // theme={{
+                //   color: {
+                //     dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
+                //   },
+                //   inner: { base: "flex items-stretch transition-0" },
+                // }}
+                className="text-neon-slatelight dark:text-neon-slatedarkest bg-gradient-to-r to-neon-slatedarker dark:to-neon-slatelight from-neon-slatedark  dark:from-neon-slatelightmd   font-medium  text-md"
               >
                 Case study
               </Button>
@@ -173,13 +175,14 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
             <div className="flex items-center gap-4">
               <Button
                 href="#"
-                color="dark"
-                theme={{
-                  color: {
-                    dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
-                  },
-                  inner: { base: "flex items-stretch transition-0" },
-                }}
+                // color="dark"
+                // theme={{
+                //   color: {
+                //     dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
+                //   },
+                //   inner: { base: "flex items-stretch transition-0" },
+                // }}
+                className="text-neon-slatelight dark:text-neon-slatedarkest bg-gradient-to-r to-neon-slatedarker dark:to-neon-slatelight from-neon-slatedark  dark:from-neon-slatelightmd   font-medium  text-md"
               >
                 Case study
               </Button>
@@ -237,13 +240,14 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
             <div className="flex items-center gap-4">
               <Button
                 href="#"
-                color="dark"
-                theme={{
-                  color: {
-                    dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
-                  },
-                  inner: { base: "flex items-stretch transition-0" },
-                }}
+                // color="dark"
+                // theme={{
+                //   color: {
+                //     dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
+                //   },
+                //   inner: { base: "flex items-stretch transition-0" },
+                // }}
+                className="text-neon-slatelight dark:text-neon-slatedarkest bg-gradient-to-r to-neon-slatedarker dark:to-neon-slatelight from-neon-slatedark  dark:from-neon-slatelightmd   font-medium  text-md"
               >
                 Case study
               </Button>
@@ -301,13 +305,14 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
             <div className="flex items-center gap-4">
               <Button
                 href="#"
-                color="dark"
-                theme={{
-                  color: {
-                    dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
-                  },
-                  inner: { base: "flex items-stretch transition-0" },
-                }}
+                // color="dark"
+                // theme={{
+                //   color: {
+                //     dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
+                //   },
+                //   inner: { base: "flex items-stretch transition-0" },
+                // }}
+                className="text-neon-slatelight dark:text-neon-slatedarkest bg-gradient-to-r to-neon-slatedarker dark:to-neon-slatelight from-neon-slatedark  dark:from-neon-slatelightmd   font-medium  text-md"
               >
                 Case study
               </Button>
@@ -365,13 +370,14 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
             <div className="flex items-center gap-4">
               <Button
                 href="#"
-                color="dark"
-                theme={{
-                  color: {
-                    dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
-                  },
-                  inner: { base: "flex items-stretch transition-0" },
-                }}
+                // color="dark"
+                // theme={{
+                //   color: {
+                //     dark: "bg-neon-slatedark  text-white focus:ring-primary-700 focus:text-primary-700 dark:bg-neon-slatelightmd dark:text-neon-slatedarkest border dark:border-slatelight border-slatedark  focus:ring-2",
+                //   },
+                //   inner: { base: "flex items-stretch transition-0" },
+                // }}
+                className="text-neon-slatelight dark:text-neon-slatedarkest bg-gradient-to-r to-neon-slatedarker dark:to-neon-slatelight from-neon-slatedark  dark:from-neon-slatelightmd   font-medium  text-md"
               >
                 Case study
               </Button>

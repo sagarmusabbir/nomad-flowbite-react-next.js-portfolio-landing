@@ -9,14 +9,16 @@ const DefaultHeaderNavigation: FC = function () {
   return (
     <header>
       <Navbar className="border-t border-gray-200 dark:bg-gray-800 dark:border-gray-700">
-        <Navbar.Brand href="./" className="justify-self-start">
-          <span
-            className="
-          self-center text-xl font-semibold text-neon-slatedarkest hover:neon-slatedark900 dark:text-white font-bebas"
-          >
-            NomadGang<span className="font-extralight">.com</span>
-            <span className="text-xs font-light">™</span>
+        <Navbar.Brand
+          href="./"
+          className="border border-neon-slatedarker dark:border-neon-slatelightmd"
+        >
+          <span className="text-transparent bg-clip-text bg-gradient-to-r to-neon-slatedark900 dark:to-neon-slatelight from-neon-slatedarkest  dark:from-neon-slatelightmd  font-normal px-1 text-md lg:text-lg">
+            NOMAD
           </span>
+          <mark className="text-neon-slatelight dark:text-neon-slatedarkest bg-gradient-to-r to-neon-slatedarker dark:to-neon-slatelight from-neon-slatedark  dark:from-neon-slatelightmd font-semibold  px-1 font-extralight   text-md lg:text-lg">
+            GANG
+          </mark>
         </Navbar.Brand>
 
         <div className="flex items-center gap-3 lg:order-2 md:order-2 ">

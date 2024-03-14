@@ -193,10 +193,14 @@ const NewsletterSignUpFooterSection: FC = function () {
           <Link
             href={"/"}
             className="
-          self-center text-xl font-semibold text-neon-slatedarkest hover:text-neon-slatedark900 dark:text-white"
+            border border-neon-slatedarker dark:border-neon-slatelightmd"
           >
-            NomadGang<span className="font-extralight">.com</span>
-            <span className="text-xs font-light">™</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r to-neon-slatedark900 dark:to-neon-slatelight from-neon-slatedarkest  dark:from-neon-slatelightmd  font-normal text-md lg:text-lg p-1">
+              NOMAD
+            </span>
+            <mark className="text-neon-slatelight dark:text-neon-slatedarkest bg-gradient-to-r to-neon-slatedarker dark:to-neon-slatelight from-neon-slatedark  dark:from-neon-slatelightmd font-semibold  font-extralight p-1  text-md lg:text-lg">
+              GANG
+            </mark>
           </Link>
 
           <Footer.Copyright

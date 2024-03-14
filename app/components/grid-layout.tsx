@@ -350,7 +350,7 @@ const GridLayoutImageCTAPreviewProjectPortfolio: FC = function () {
             <div className="space-y-3 mb-6">
               <Badge color="gray" className="w-fit">
                 <Boilerplate className="h-4 w-4" />
-                Boilerplate
+                React Boilerplate
               </Badge>
               <h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
                 <a href="#" className="hover:underline">

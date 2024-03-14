@@ -1,13 +1,18 @@
 import * as React from "react";
 import { IconSvgProps } from "@/app/types";
 import { SVGProps } from "react";
-import { LiaElementor, LiaWordpress } from "react-icons/lia";
-import { SiGhost, SiHugo, SiNextdotjs } from "react-icons/si";
-import { FaWordpress } from "react-icons/fa";
-import { HiTemplate } from "react-icons/hi";
+
+import {
+  SiElementor,
+  SiGhost,
+  SiHugo,
+  SiNextdotjs,
+  SiReact,
+  SiWordpress,
+} from "react-icons/si";
 
 export const Elementor: React.FC<IconSvgProps> = ({ ...props }) => (
-  <LiaElementor
+  <SiElementor
     fill="currentColor"
     viewBox="0 0 36 36"
     aria-hidden="true"
@@ -43,7 +48,7 @@ export const Ghost: React.FC<IconSvgProps> = ({ ...props }) => (
 );
 
 export const Boilerplate: React.FC<IconSvgProps> = ({ ...props }) => (
-  <HiTemplate
+  <SiReact
     fill="currentColor"
     viewBox="0 0 36 36"
     aria-hidden="true"
@@ -52,7 +57,7 @@ export const Boilerplate: React.FC<IconSvgProps> = ({ ...props }) => (
 );
 
 export const Wordpress: React.FC<IconSvgProps> = ({ ...props }) => (
-  <LiaWordpress
+  <SiWordpress
     fill="currentColor"
     viewBox="0 0 36 36"
     aria-hidden="true"
